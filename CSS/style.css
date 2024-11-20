@@ -1,27 +1,31 @@
 .main-header{
   display: flex;
     justify-content: space-between;
+    
 }
 
 .main-article{
   display: flex;
-    justify-content: space-evenly;
+  justify-content: space-evenly;
+  margin: 40px;
 }
 
 .main-logo{
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   background-image: url(https://picsum.photos/200);
   border-radius: 50%;
 }
 
 .container-banner{
   flex: 1;
+  margin-right: 44px;
 }
 
 nav{
   display: flex;
   align-items: center;
+  
 }
 
 .navbar{
@@ -32,28 +36,74 @@ nav{
 }
 
 header,main{
-  margin: 32px;
+  margin: 10px;
 }
 
 .main-article-header{
   text-align: center;
-}
+  margin-top: 40px;
+  margin-bottom: 30px;
+}   
 
 .banner-autoslide{
-  height: 250px;
-  background-image: url(https://picsum.photos/500);
+  height: 300px;
+  width: auto;
   background-position: center;
   background-size: cover;
+  margin-left: 20px;
+}
+
+.image1{
+  background-image: url(https://picsum.photos/500);
+}
+
+.image2{
+  background-image: url(https://picsum.photos/600);
+}
+
+.image3{
+  background-image: url(https://picsum.photos/700);
+}
+
+.main-form{
+  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-package{
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .our-package-header{
   text-align: center ;
+  padding: 10px;
 }
 
 .our-package-content{
-  text-align: center;
+  text-align: left;
+  margin: 20px;
+  
 }
 
 footer{
   text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-header{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-logo{
+    margin-bottom: 10px;
+  }
+
+  .main-article{
+    flex-direction: column;
+  }
 }

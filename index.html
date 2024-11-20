@@ -22,7 +22,7 @@
   <main>
     <header class="main-article-header">
       <h1>Your Trusted Travel Agent</h1>
-      <h3>your happiness is our happiness</h3>  
+      <h3>your happiness is our happiness</h3>
     </header>
   
 
@@ -30,31 +30,75 @@
     <article class="main-article">
         <!--konten banner auto slide-->
       <section class="container-banner">
-        <div class="banner-autoslide"></div>
-
-        <p>lorem ipsum dolor sit amet adipiscing...</p>
+        <div class="banner-autoslide image1"></div>
+        <div class="banner-autoslide image2"></div>
+        <div class="banner-autoslide image3"></div>
       </section>
 
       <!--form contact us-->
-      <section>
-        <h2>Form Contact Us</h2>
+      <section class="main-form">
+        <h2>Call Us</h2>
+        <form action="">
+          <label for="name-input">Your Name: </label><br>
+          <input id="name-input" required value="customer"><br><br>
+          <label for="email-input">Email Address: </label><br>
+          <input id="email-input" value="user@mail.com"><br><br>
+          <label for="interested-input">What Are You Interested In: </label><br>
+          <select name="interested-input" id="interested-input" style="width: 175px;">
+            <option value="tour">Tour</option>
+            <option value="adventures">Adventure</option>
+            <option value="cultural">Cultural</option>
+            <option value="other">Other</option>
+          </select><br><br>
+          <button type="button" style="width: 175px;" onclick="validateForm()">Submit</button>
+        </form>
       </section>
     </article>
 
     <!--konten our packages-->
-    <article>
+    <article class="main-package">
       <header class="our-package-header">
         <h1>Our Packages</h1>
       </header>
-
+      <hr>
       <section class="our-package-content">
-        <h2>konten our packages</h2>
+        <p>
+          <b>Bali</b>
+          <p>Seasoned travelers will never miss a chance to say hello to this Island. Amazements always at the ready, waiting to enlighten another visitor. Be it pristine beaches, nightclubs, mountains, or serene temples, Bali will always guide you to a place that suits you, no matter what kind of traveler you are.
+
+            Explore anything from the highlands of Batur, the wild nights of Seminyak, the solitary Ubud, to the satisfying T-rex cliff edge of Nusa Penida. Every inch will determine your experience, every step will determine your memories. Get ready to comb every inch of the island of the Gods, because you might get the chance. Get ready, for Bali Tours.</p>
+        </p>
+        <br>
+        <p>
+          <b>Lombok</b>
+          <p>Some people might call Lombok as the sister island of Bali, but they might not told you about who the bigger sister is. Here is the place where the gems are rarely touched and the beaches are barely stepped. The landscapes and the people are all familiar, yet shows a different, quieter   shade than its lively sister. But the first and foremost, Lombok is surfer’s paradise.
+
+            It’s about fun in the sun, but it’s also about tradition. Lombok’s culture might not be as populated with artists and craftsmen as Bali, but in no way that means it’s not as beautiful. You can witness the ancient wisdom of traditional potteries, artistic weaving, peculiar houses, and so much more. When you talk about the Lombok Tours, you’re talking about one meaningful experience in one serene island.</p>
+        </p>
+        <br>
+        <p>
+          <b>Toraja</b>
+          <p>When we talk about someone passing away, we might grieve and feel a heavy load on our backs. But not the Torajans. Here, they celebrate it as a part of life. Even as far as still communicating, giving meals, and taking picture with the remains. They even give them their own home, with all the luxury that it demands.
+
+            That is a big part of the Torajans’ life, and it does not stop there. The Torajan Tribe is rich with admirable traditions that can transform your way of looking at life. Every dance, every sheet of weaving, every house has meaning and value to the life of the tribe. When you talk about the Torajans and the Toraja Tours, you’re talking about appreciating life in a much deeper level.</p>
+        </p>
+        <br>
+        <p>
+          <b>Yogyakarta</b>
+          <p>If you ever wonder how living in a kingdom feels like, Yogyakarta is a place for it. As one of the few places in Indonesia that still has a monarch ruler, Yogyakarta is a metropolis that is also a reminiscent of the Southeast Asia’s Hindu Kingdoms Era. Gone are the days, but all the historical palaces, heritage, and culture are all still there.
+
+            And yet, braving into Yogyakarta has an adventurous side to it. Just North of the city is the sumptuous Mt. Merapi, where the wildest mountain adventures you can think of could come true. Go West, and you'll find the Borobudur Temple, one of the most magnificent relics of the Buddhist Kingdoms. Just the sight of it will open your eyes regarding the wisdom and the way of life of our Buddhists.
+            
+            You will never miss the sight of a modern city, either. For it is one of the best cities for hangouts and relaxations. Feel free to experience an array of modern attractions such as cafes, art spaces, and golfing. One thing’s for sure, whichever one it is, nothing will let you down in Yogyakarta Tours.</p>
+        </p>
       </section>
     </article>
   </main>
-
+  <hr>
   <footer>
     <span>made by isbaturrr</span>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
